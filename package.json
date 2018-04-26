@@ -1,0 +1,31 @@
+{
+  "name": "cotrasangil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "transporte",
+    "cotrasangil",
+    "sangil",
+    "bus",
+    "buses",
+    "encomiendas",
+    "taxis",
+    "taxi",
+    "rutas",
+    "tiquetes"
+  ],
+  "author": "RasFaiO",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-server-livereload": "^1.9.2"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "materialize-css": "^0.100.2"
+  }
+}
