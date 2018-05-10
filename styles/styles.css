@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.icono_p {
+  top: 2.5mm;
+  left: 2mm;
+}
+
+.icono_p > img {
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.as:hover {
+  background-color: #d32f2f;
+}
+
+.tit{
+  text-align: center;
+  background-color: #f9a825;
+  border-radius: 50px;
+}
+
+.abc{
+  margin-bottom: 0;
+}
+
+.redondo{
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.paginacion{
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
