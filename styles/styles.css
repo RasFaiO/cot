@@ -3,45 +3,120 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
-
 main {
   flex: 1 0 auto;
 }
-
 .icono_p {
   top: 2.5mm;
   left: 2mm;
 }
-
 .icono_p > img {
   width: 150px;
-  height: 50px;
+  height: 40px;
   border-radius: 50px;
   background-color: white;
 }
-
 .as:hover {
   background-color: #d32f2f;
 }
-
 .tit{
-  text-align: center;
   background-color: #f9a825;
-  border-radius: 50px;
+  border-radius: 15px;
 }
-
+.contenido{
+  margin: 50px;
+  border-radius: 20px;
+}
 .abc{
   margin-bottom: 0;
 }
-
 .redondo{
   color: white;
   border-radius: 50px;
   text-align: center;
 }
-
 .paginacion{
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
+}
+.parallax-container{
+  height: 460px;
+}
+.slider{
+  height: 560px;
+}
+/*labels*/
+/* label color */
+.input-field label {
+  color: #000;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #000;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* valid color */
+.input-field input[type=text].valid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #000;
+}
+#env_cor{
+  background-color: red;
+  color: #fff;
+  right: 50px;
+  border: none;
+  width: 180px;
+  height: 50px;
+  border-radius: 20px;
+}
+.divi{
+  text-align: center;
+}
+.info_cot{
+  text-align: justify;
+  border-radius: 30px;
+  padding: 20px;
+  font-size: 120%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.parallax-container{
+  height: 300px;
+}
+/*Icono barra menú*/
+.esconder{
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+@media only screen and (max-device-width: 768px){
+  .esconder{
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    padding: 5px;
+    color: white;
+    z-index: 1000;
+    opacity: 1;
+  }
+  .barra_lado{
+    top: 55px;
+  }
+}
+.titulo{
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
 }

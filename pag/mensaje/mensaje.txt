@@ -1,0 +1,9 @@
+Nombre: Administrator
+ 
+Correo: 000@000.com
+ 
+Teléfono: 3000000000
+ 
+Motivo: sugerencia
+ 
+Mensaje: Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere iste odio voluptas tempore quae assumenda possimus quos ex aut, laboriosam sit repudiandae autem temporibus animi maxime porro voluptates provident, alias mollitia officiis, corporis suscipit harum! Dolorem fugiat ipsum corporis unde, ullam ex exercitationem adipisci quam, laudantium qui temporibus sequi enim! Commodi, cumque. In magni veniam corporis pariatur similique non quibusdam incidunt, optio provident molestiae. Velit amet consectetur a commodi, dolor magni dolores voluptatem. Repellendus nemo tempora sit ea laudantium voluptates delectus. Reprehenderit enim laboriosam dolor ullam aliquam voluptas, quis sint repudiandae est, aperiam debitis molestias odio voluptatibus fuga, autem recusandae!
